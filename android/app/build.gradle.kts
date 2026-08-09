@@ -45,7 +45,7 @@ dependencies {
     // Android provides org.json on-device; this supplies the real implementation
     // to local JVM unit tests as well.
     testImplementation("junit:junit:4.13.2")
-    testImplementation("org.json:json:20240303")
+    testImplementation("org.json:json:20260719")
 }
 
 flutter {
