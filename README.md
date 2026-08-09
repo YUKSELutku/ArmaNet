@@ -140,4 +140,4 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) before submitting code or filter rules. S
 
 ## License
 
-No open-source license has been selected yet. Until a license is added, copyright law reserves reuse and redistribution rights by default. Choose and add a license before presenting this repository as open source.
+This project is licensed under the [MIT License](LICENSE).
