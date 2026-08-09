@@ -1,0 +1,80 @@
+# ArmaNet local advertisement rules
+# filterVersion: 2
+# Updated: 2026-08-09
+# One canonical domain per line. A rule also matches its subdomains.
+
+# Google Ads / AdMob / DoubleClick / Google Ad Manager
+2mdn.net
+app-ads-services.com
+doubleclick.com
+doubleclick.net
+googleadservices-cn.com
+googleadservices.com
+googleadsserving.cn
+googlesyndication.com
+
+# Unity Ads
+iads.unity3d.com
+mediation.unity3d.com
+unityads.unity3d.com
+
+# AppLovin
+a.applvn.com
+applovin.com
+d.applvn.com
+ms.applvn.com
+ms4.applvn.com
+rt.applvn.com
+
+# ironSource / LevelPlay
+supersonicads-a.akamaihd.net
+supersonicads.com
+
+# Mintegral
+mintegral.com
+mtgglobals.com
+rayjump.com
+
+# Pangle / TikTok Ads
+pangle-b.io
+pangle.io
+pangolin-sdk-toutiao-b.com
+pangolin-sdk-toutiao.com
+pglstatp-toutiao.com
+tiktokpangle.us
+
+# Vungle / Liftoff Monetize
+liftoff-creatives.io
+vungle.com
+
+# InMobi
+ads.inmobi.com
+config.inmobi.com
+glance.inmobi.com
+inmobi.cn
+inmobi.net
+inmobicdn.net
+inmobisdk-a.akamaihd.net
+
+# Chartboost
+chartboost.com
+chartboosts.com
+
+# Digital Turbine / Fyber / AdColony
+adcolony.com
+fyber.com
+inner-active.com
+inner-active.mobi
+tpbid.com
+
+# Yandex Ads
+yandexadexchange.net
+
+# Smaato
+smaato.net
+
+# Amazon Ads
+amazon-adsystem.com
+
+# Yahoo Flurry Ads
+flurryad.com

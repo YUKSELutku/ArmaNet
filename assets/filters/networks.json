@@ -1,0 +1,179 @@
+{
+  "filterVersion": 2,
+  "updatedAt": "2026-08-09",
+  "sources": [
+    {
+      "name": "AdGuard DNS filter",
+      "url": "https://github.com/AdguardTeam/AdGuardSDNSFilter",
+      "purpose": "DNS-blocking suitability cross-check"
+    },
+    {
+      "name": "DuckDuckGo Tracker Radar",
+      "url": "https://github.com/duckduckgo/tracker-radar",
+      "purpose": "domain ownership and tracker classification cross-check"
+    },
+    {
+      "name": "Provider documentation",
+      "url": "https://developers.google.com/tag-platform/security/guides/csp",
+      "purpose": "provider endpoint cross-check where available"
+    },
+    {
+      "name": "Google Studio Help",
+      "url": "https://support.google.com/richmedia/answer/6015286",
+      "purpose": "2mdn.net advertising creative delivery verification"
+    },
+    {
+      "name": "Amplitude HTTP API",
+      "url": "https://amplitude.com/docs/apis/analytics/http-v2",
+      "purpose": "Amplitude ingestion endpoint verification"
+    },
+    {
+      "name": "Kochava server-to-server integration",
+      "url": "https://support.kochava.com/articles/server-to-server-integration/18474-s2s-without-device-ua/",
+      "purpose": "Kochava tracking endpoint verification"
+    },
+    {
+      "name": "Adjust Android SDK",
+      "url": "https://github.com/adjust/android_sdk/issues/397",
+      "purpose": "Adjust app endpoint and event attribution verification"
+    },
+    {
+      "name": "GameAnalytics Collection API",
+      "url": "https://docs.gameanalytics.com/event-tracking-and-integrations/sdks-and-collection-api/api/setup/",
+      "purpose": "GameAnalytics production event endpoint verification"
+    },
+    {
+      "name": "Unity Issue Tracker",
+      "url": "https://issuetracker.unity3d.com/issues/curl-error-6-could-not-resolve-host-config-dot-uca-dot-cloud-dot-unity3d-dot-com-error-periodically-appears-without-internet-connection?page=2",
+      "purpose": "Unity UCA configuration endpoint ownership verification"
+    },
+    {
+      "name": "AppLovin MAX Unity Plugin",
+      "url": "https://github.com/AppLovin/AppLovin-MAX-Unity-Plugin/issues/464",
+      "purpose": "SafeDK event telemetry endpoint verification"
+    }
+  ],
+  "networks": {
+    "2mdn.net": { "network": "Google Ads", "category": "advertisement" },
+    "app-ads-services.com": { "network": "Google AdMob", "category": "advertisement" },
+    "doubleclick.com": { "network": "Google DoubleClick", "category": "advertisement" },
+    "doubleclick.net": { "network": "Google DoubleClick", "category": "advertisement" },
+    "googleadservices-cn.com": { "network": "Google Ads", "category": "advertisement" },
+    "googleadservices.com": { "network": "Google Ads", "category": "advertisement" },
+    "googleadsserving.cn": { "network": "Google Ads", "category": "advertisement" },
+    "googlesyndication.com": { "network": "Google Ad Manager", "category": "advertisement" },
+
+    "iads.unity3d.com": { "network": "Unity Ads", "category": "advertisement" },
+    "mediation.unity3d.com": { "network": "Unity LevelPlay", "category": "advertisement" },
+    "unityads.unity3d.com": { "network": "Unity Ads", "category": "advertisement" },
+
+    "a.applvn.com": { "network": "AppLovin", "category": "advertisement" },
+    "applovin.com": { "network": "AppLovin", "category": "advertisement" },
+    "d.applvn.com": { "network": "AppLovin", "category": "advertisement" },
+    "ms.applvn.com": { "network": "AppLovin", "category": "advertisement" },
+    "ms4.applvn.com": { "network": "AppLovin", "category": "advertisement" },
+    "rt.applvn.com": { "network": "AppLovin", "category": "advertisement" },
+
+    "supersonicads-a.akamaihd.net": { "network": "ironSource / LevelPlay", "category": "advertisement" },
+    "supersonicads.com": { "network": "ironSource / LevelPlay", "category": "advertisement" },
+
+    "mintegral.com": { "network": "Mintegral", "category": "advertisement" },
+    "mtgglobals.com": { "network": "Mintegral", "category": "advertisement" },
+    "rayjump.com": { "network": "Mintegral", "category": "advertisement" },
+
+    "pangle-b.io": { "network": "Pangle / TikTok Ads", "category": "advertisement" },
+    "pangle.io": { "network": "Pangle / TikTok Ads", "category": "advertisement" },
+    "pangolin-sdk-toutiao-b.com": { "network": "Pangle / TikTok Ads", "category": "advertisement" },
+    "pangolin-sdk-toutiao.com": { "network": "Pangle / TikTok Ads", "category": "advertisement" },
+    "pglstatp-toutiao.com": { "network": "Pangle / TikTok Ads", "category": "advertisement" },
+    "tiktokpangle.us": { "network": "Pangle / TikTok Ads", "category": "advertisement" },
+
+    "liftoff-creatives.io": { "network": "Liftoff Monetize / Vungle", "category": "advertisement" },
+    "vungle.com": { "network": "Liftoff Monetize / Vungle", "category": "advertisement" },
+
+    "ads.inmobi.com": { "network": "InMobi", "category": "advertisement" },
+    "config.inmobi.com": { "network": "InMobi", "category": "advertisement" },
+    "glance.inmobi.com": { "network": "InMobi", "category": "advertisement" },
+    "inmobi.cn": { "network": "InMobi", "category": "advertisement" },
+    "inmobi.net": { "network": "InMobi", "category": "advertisement" },
+    "inmobicdn.net": { "network": "InMobi", "category": "advertisement" },
+    "inmobisdk-a.akamaihd.net": { "network": "InMobi", "category": "advertisement" },
+
+    "chartboost.com": { "network": "Chartboost", "category": "advertisement" },
+    "chartboosts.com": { "network": "Chartboost", "category": "advertisement" },
+
+    "adcolony.com": { "network": "Digital Turbine / AdColony", "category": "advertisement" },
+    "fyber.com": { "network": "Digital Turbine / Fyber", "category": "advertisement" },
+    "inner-active.com": { "network": "Digital Turbine / Fyber", "category": "advertisement" },
+    "inner-active.mobi": { "network": "Digital Turbine / Fyber", "category": "advertisement" },
+    "tpbid.com": { "network": "Digital Turbine / Fyber", "category": "advertisement" },
+
+    "yandexadexchange.net": { "network": "Yandex Ads", "category": "advertisement" },
+    "smaato.net": { "network": "Smaato", "category": "advertisement" },
+    "amazon-adsystem.com": { "network": "Amazon Ads", "category": "advertisement" },
+    "flurryad.com": { "network": "Yahoo Flurry Ads", "category": "advertisement" },
+
+    "app-measurement.com": { "network": "Google Analytics / Firebase", "category": "tracker" },
+    "google-analytics.com": { "network": "Google Analytics", "category": "tracker" },
+    "ssl-google-analytics.l.google.com": { "network": "Google Analytics", "category": "tracker" },
+    "www-google-analytics.l.google.com": { "network": "Google Analytics", "category": "tracker" },
+
+    "an.facebook.com": { "network": "Meta Audience Network", "category": "tracker" },
+    "analytics.facebook.com": { "network": "Meta", "category": "tracker" },
+    "pixel.facebook.com": { "network": "Meta", "category": "tracker" },
+
+    "analytics.cloud.unity3d.com": { "network": "Unity Analytics", "category": "tracker" },
+    "collect.analytics.unity3d.com": { "network": "Unity Analytics", "category": "tracker" },
+    "config.uca.cloud.unity3d.com": { "network": "Unity Analytics", "category": "tracker" },
+    "events.mz.unity3d.com": { "network": "Unity Analytics", "category": "tracker" },
+    "perf-events.cloud.unity3d.com": { "network": "Unity Analytics", "category": "tracker" },
+    "logs.ironsrc.mobi": { "network": "ironSource / LevelPlay", "category": "tracker" },
+    "log.trackingio.com": { "network": "Mintegral / Reyun", "category": "tracker" },
+    "mintegral.net": { "network": "Mintegral", "category": "tracker" },
+    "analytics.pangle-ads.com": { "network": "Pangle / TikTok Ads", "category": "tracker" },
+    "sf16-static.i18n-pglstatp.com": { "network": "Pangle / TikTok Ads", "category": "tracker" },
+
+    "pbs.inmobi.com": { "network": "InMobi", "category": "tracker" },
+    "sync.inmobi.com": { "network": "InMobi", "category": "tracker" },
+    "telemetry.sdk.inmobi.com": { "network": "InMobi", "category": "tracker" },
+    "unif-id.ssp.inmobi.com": { "network": "InMobi", "category": "tracker" },
+    "w.inmobi.com": { "network": "InMobi", "category": "tracker" },
+
+    "analytics.adjust.com": { "network": "Adjust", "category": "tracker" },
+    "analytics.adjust.io": { "network": "Adjust", "category": "tracker" },
+    "analytics.adjust.net.in": { "network": "Adjust", "category": "tracker" },
+    "analytics.adjust.world": { "network": "Adjust", "category": "tracker" },
+    "app.adjust.com": { "network": "Adjust", "category": "tracker" },
+    "edge.safedk.com": { "network": "AppLovin SafeDK", "category": "tracker" },
+    "api.gameanalytics.com": { "network": "GameAnalytics", "category": "tracker" },
+
+    "api.appsflyer.com": { "network": "AppsFlyer", "category": "tracker" },
+    "api2.appsflyer.com": { "network": "AppsFlyer", "category": "tracker" },
+    "attr.appsflyer.com": { "network": "AppsFlyer", "category": "tracker" },
+    "events.appsflyer.com": { "network": "AppsFlyer", "category": "tracker" },
+    "launches.appsflyer.com": { "network": "AppsFlyer", "category": "tracker" },
+    "track.appsflyer.com": { "network": "AppsFlyer", "category": "tracker" },
+
+    "api2.branch.io": { "network": "Branch Metrics", "category": "tracker" },
+    "api3.branch.io": { "network": "Branch Metrics", "category": "tracker" },
+    "dsp.branch.io": { "network": "Branch Metrics", "category": "tracker" },
+
+    "api.amplitude.com": { "network": "Amplitude", "category": "tracker" },
+    "api2.amplitude.com": { "network": "Amplitude", "category": "tracker" },
+    "profile-api.amplitude.com": { "network": "Amplitude", "category": "tracker" },
+    "regionconfig.amplitude.com": { "network": "Amplitude", "category": "tracker" },
+    "api.mixpanel.com": { "network": "Mixpanel", "category": "tracker" },
+    "decide.mixpanel.com": { "network": "Mixpanel", "category": "tracker" },
+
+    "control.kochava.com": { "network": "Kochava", "category": "tracker" },
+    "i.singular.net": { "network": "Singular", "category": "tracker" },
+    "sdk-api-v1.singular.net": { "network": "Singular", "category": "tracker" },
+    "skadnetwork.singular.net": { "network": "Singular", "category": "tracker" },
+
+    "flurry.com": { "network": "Yahoo Flurry Analytics", "category": "tracker" },
+    "segment.io": { "network": "Twilio Segment", "category": "tracker" },
+    "beacon-1.newrelic.com": { "network": "New Relic", "category": "tracker" },
+    "insights-collector.newrelic.com": { "network": "New Relic", "category": "tracker" },
+    "mobile-collector.newrelic.com": { "network": "New Relic", "category": "tracker" }
+  }
+}

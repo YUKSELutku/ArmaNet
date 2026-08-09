@@ -1,0 +1,58 @@
+name: Bug report
+description: Report a reproducible ArmaNet problem
+title: "[Bug]: "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: Please redact private domains, package names, device identifiers, IP addresses, and account data from logs.
+
+  - type: input
+    id: version
+    attributes:
+      label: ArmaNet version
+      placeholder: 1.0.9 (10)
+    validations:
+      required: true
+
+  - type: input
+    id: device
+    attributes:
+      label: Device and Android version
+      placeholder: Samsung Galaxy S23, Android 16
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Problem
+      description: Explain what happened and what you expected.
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Reproduction steps
+      placeholder: |
+        1. Start protection
+        2. Open ...
+        3. Observe ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: diagnostics
+    attributes:
+      label: Redacted diagnostics
+      description: Include DNS inspected, blocked, packet error counts, Private DNS state, and only redacted logcat lines when relevant.
+      render: text
+
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Privacy confirmation
+      options:
+        - label: I removed private traffic, account, device, and signing information.
+          required: true

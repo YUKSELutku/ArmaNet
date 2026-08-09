@@ -1,0 +1,95 @@
+# ArmaNet local tracker and analytics rules
+# filterVersion: 2
+# Updated: 2026-08-09
+# One canonical domain per line. A rule also matches its subdomains.
+
+# Google Analytics / Firebase Analytics measurement
+app-measurement.com
+google-analytics.com
+ssl-google-analytics.l.google.com
+www-google-analytics.l.google.com
+
+# Meta Audience Network measurement (facebook.com itself is intentionally allowed)
+an.facebook.com
+analytics.facebook.com
+pixel.facebook.com
+
+# Unity Analytics / Ads telemetry
+analytics.cloud.unity3d.com
+collect.analytics.unity3d.com
+config.uca.cloud.unity3d.com
+events.mz.unity3d.com
+perf-events.cloud.unity3d.com
+
+# ironSource / LevelPlay telemetry
+logs.ironsrc.mobi
+
+# Mintegral attribution / telemetry
+log.trackingio.com
+mintegral.net
+
+# Pangle analytics
+analytics.pangle-ads.com
+sf16-static.i18n-pglstatp.com
+
+# InMobi telemetry and identity sync
+pbs.inmobi.com
+sync.inmobi.com
+telemetry.sdk.inmobi.com
+unif-id.ssp.inmobi.com
+w.inmobi.com
+
+# Adjust attribution
+analytics.adjust.com
+analytics.adjust.io
+analytics.adjust.net.in
+analytics.adjust.world
+app.adjust.com
+
+# AppLovin SafeDK telemetry
+edge.safedk.com
+
+# GameAnalytics event collection
+api.gameanalytics.com
+
+# AppsFlyer attribution
+api.appsflyer.com
+api2.appsflyer.com
+attr.appsflyer.com
+events.appsflyer.com
+launches.appsflyer.com
+track.appsflyer.com
+
+# Branch attribution
+api2.branch.io
+api3.branch.io
+dsp.branch.io
+
+# Amplitude analytics
+api.amplitude.com
+api2.amplitude.com
+profile-api.amplitude.com
+regionconfig.amplitude.com
+
+# Mixpanel analytics
+api.mixpanel.com
+decide.mixpanel.com
+
+# Kochava attribution
+control.kochava.com
+
+# Singular attribution
+i.singular.net
+sdk-api-v1.singular.net
+skadnetwork.singular.net
+
+# Yahoo Flurry analytics
+flurry.com
+
+# Twilio Segment
+segment.io
+
+# New Relic mobile telemetry
+beacon-1.newrelic.com
+insights-collector.newrelic.com
+mobile-collector.newrelic.com
